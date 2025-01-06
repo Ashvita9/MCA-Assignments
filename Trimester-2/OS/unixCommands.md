@@ -133,22 +133,22 @@
       ls -l
       ```
 
-16. **`ping`** - **Test Network Connectivity**
+16. **`df`** - **View Disk Space Usage**
 
-    - **Description**: Sends packets to test network connectivity.
-    - **Example**:
-      ```bash
-      ping google.com
-      ```
+   - **Flags**:
+     - `-h`: Human-readable output.
+   - **Example**:
+     ```bash
+     df -h
+     ```
 
-17. **`curl`** - **Fetch Content from URLs**
+17.  **`du`** - **Estimate File/Folder Sizes**
 
     - **Flags**:
-      - `-O`: Save the output to a file.
-      - `-I`: Fetch headers.
+      - `-h`: Human-readable output.
     - **Example**:
       ```bash
-      curl -O https://example.com/file.txt
+      du -h
       ```
 
 18. **`wget`** - **Download Files**
@@ -246,22 +246,22 @@
      kill 12345
      ```
 
-9. **`df`** - **View Disk Space Usage**
+9.   **`ping`** - **Test Network Connectivity**
 
-   - **Flags**:
-     - `-h`: Human-readable output.
-   - **Example**:
-     ```bash
-     df -h
-     ```
-
-10. **`du`** - **Estimate File/Folder Sizes**
-
-    - **Flags**:
-      - `-h`: Human-readable output.
+    - **Description**: Sends packets to test network connectivity.
     - **Example**:
       ```bash
-      du -h
+      ping google.com
+      ```
+
+10.  **`curl`** - **Fetch Content from URLs**
+
+    - **Flags**:
+      - `-O`: Save the output to a file.
+      - `-I`: Fetch headers.
+    - **Example**:
+      ```bash
+      curl -O https://example.com/file.txt
       ```
 
 11. **`tar`** - **Archive Files**
@@ -347,3 +347,4 @@
       ```bash
       history
       ```
+     
